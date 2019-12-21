@@ -34,3 +34,12 @@ type MyStruct struct {
 | `epoch_ms` | Similar to `epoch_seconds`, but with milliseconds instead. |
 | `indexignore` | Tells Elasticsearch not to index (make searchable) this field. |
 | `eager_global_ordinals` | Tells Elasticsearch to load ordinals eagerly rather than lazily (for search speed). |
+
+## Tests
+
+To run tests:
+
+```bash
+go test .
+```
+
